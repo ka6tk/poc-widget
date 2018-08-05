@@ -25,7 +25,7 @@ provide the configuration in your js
     }
 ```
 - step 3 <br/>
-    your final html look almost like below one.
+    if you have followed previouse 2 steps, your final html may look almost similar to below snip.
 ```html
 <!DOCTYPE html>
 <html lang="en">
