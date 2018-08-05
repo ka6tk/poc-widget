@@ -1,7 +1,6 @@
 # payment widget
 
-this is a POC. widget for Payment wall.
-br  
+this is a POC. widget for Payment wall.<br/>
 
 [demo](http://spectacular-payment.surge.sh/example/)
 
