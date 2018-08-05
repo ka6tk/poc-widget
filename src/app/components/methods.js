@@ -6,9 +6,9 @@ import {getPaymentMethods} from '../api'
 const onPaymentClickHandler = (node)=>{
     bindEvent(node,'click',(e)=>{
         if(!e.currentTarget.classList.contains("active")){
-            removeClass(document.querySelector(`.${event.currentTarget.classList.value}.active`),["active"])
+            removeClass(document.querySelector(`.${e.currentTarget.classList.value}.active`),["active"])
             addClass(e.currentTarget,["active"]);
-            model.selectedMethod = model.paymentMethods[event.currentTarget.getAttribute('data-index')];
+            model.selectedMethod = model.paymentMethods[e.currentTarget.getAttribute('data-index')];
         }
     })
 };
