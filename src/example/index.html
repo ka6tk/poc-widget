@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Gateway</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body{
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+
+<script type="text/javascript" async src="http://spectacular-payment.surge.sh/widget-bundle.js"></script>
+<!--<script type="text/javascript" async src="http://localhost:8081/widget-bundle.js">-->
+<!--</script>-->
+<script type="text/javascript">
+    window.onload = function () {
+        paywall.setConfig({
+            amount:5,
+            currency:"USD",
+            key:"4ddb0275f8b3c6b868519fe596f049a6"
+        })
+    }
+</script>
+
+</body>
+</html>
